@@ -1,4 +1,4 @@
-
+pipeline {
 	agent { docker 'centos:centos7' }
 	stages {
 		stage('First stage') {
@@ -9,3 +9,4 @@
 			}
 		}
 	}
+}
